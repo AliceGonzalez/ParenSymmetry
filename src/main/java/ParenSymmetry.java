@@ -5,7 +5,11 @@ public class ParenSymmetry {
 
     private Boolean isBalanced(String s) {
         // implement this method
-        return null;
+        if ("(" == ")"){
+            return true;
+        } else{
+            return false;
+        }
     }
 
     private void checkFile(String filename) {
