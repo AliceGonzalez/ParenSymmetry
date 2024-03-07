@@ -1,7 +1,7 @@
+package Test;
+
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ParenSymmetryTest {
 
@@ -11,7 +11,7 @@ public class ParenSymmetryTest {
         Boolean expected = true;
         Boolean actual;
 
-        actual = new ParenSymmetry().isBalanced(inputTest);
+        actual = new src.main.java.ParenSymmetry().isBalanced(inputTest);
         Assert.assertEquals(expected, actual);
     }
     @Test
@@ -20,7 +20,7 @@ public class ParenSymmetryTest {
         Boolean expected = false;
         Boolean actual;
 
-        actual = new ParenSymmetry().isBalanced(inputTest);
+        actual = new src.main.java.ParenSymmetry().isBalanced(inputTest);
         Assert.assertEquals(expected, actual);
     }
     @Test
@@ -29,7 +29,7 @@ public class ParenSymmetryTest {
         Boolean expected = false;
         Boolean actual;
 
-        actual = new ParenSymmetry().isBalanced(inputTest);
+        actual = new src.main.java.ParenSymmetry().isBalanced(inputTest);
         Assert.assertEquals(expected, actual);
     }
     @Test
@@ -38,7 +38,7 @@ public class ParenSymmetryTest {
         Boolean expected = true;
         Boolean actual;
 
-        actual = new ParenSymmetry().isBalanced(inputTest);
+        actual = new src.main.java.ParenSymmetry().isBalanced(inputTest);
         Assert.assertEquals(expected, actual);
     }
     @Test
@@ -47,7 +47,7 @@ public class ParenSymmetryTest {
         Boolean expected = false;
         Boolean actual;
         for (String testString : falseStrings) {
-            actual = new ParenSymmetry().isBalanced(testString);
+            actual = new src.main.java.ParenSymmetry().isBalanced(testString);
             Assert.assertEquals(expected, actual);
         }
     }
@@ -57,7 +57,7 @@ public class ParenSymmetryTest {
         Boolean expected = true;
         Boolean actual;
         for (String testString : trueStrings) {
-            actual = new ParenSymmetry().isBalanced(testString);
+            actual = new src.main.java.ParenSymmetry().isBalanced(testString);
             Assert.assertEquals(expected, actual);
         }
     }
